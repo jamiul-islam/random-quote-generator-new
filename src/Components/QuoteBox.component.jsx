@@ -25,9 +25,9 @@ const QuoteBox = ({ accentColor: SameColor, handleNewQuote, currentQuote }) => {
       </div>
       <div className="buttons">
         <a
-          href={`https://twitter.com/intent/tweet?text=${quote}-${author}&hashtags=quote`}
           id="tweet-quote"
           className="icon quote-btn transition"
+          href={`https://twitter.com/intent/tweet?text=${quote}-${author}&hashtags=quote`}
           style={{
             backgroundColor: `${SameColor}`,
             color: "white",
