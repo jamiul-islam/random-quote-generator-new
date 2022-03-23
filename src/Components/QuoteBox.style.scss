@@ -1,0 +1,44 @@
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 75rem;
+  font-size: 2rem;
+  padding: 5.5rem 5.5rem;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+  .quote-text {
+    font-size: 3.5rem;
+    .quote {
+      font-weight: 400;
+    }
+    .quote-mark {
+      font-size: 3.5rem;
+      margin-right: 1.2rem;
+    }
+  }
+  .quote-author {
+    text-align: end;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 3.5vw;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-size: 2.8rem;
+      padding: 0.2rem 0.9rem;
+      border: none;
+    }
+    button {
+      font-size: 1.8rem;
+      border: none;
+    }
+    #new-quote {
+      padding: 1rem 1.8rem;
+    }
+  }
+}
+.transition {
+  transition: all 0.7s ease-in-out;
+}
