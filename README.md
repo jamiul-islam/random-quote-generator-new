@@ -4,7 +4,7 @@ This random quote machine project was created for FreeCodeCamp's Front End Libra
 
 It passes 12 out of 12 tests.
 
-DEMO: https://lucifer1112k.github.io/random-quote-generator-new
+DEMO: https://jamiul-islam.github.io/random-quote-generator-new
 
 ### Link
 
